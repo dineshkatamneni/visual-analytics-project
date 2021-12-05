@@ -13,7 +13,7 @@ from geopy import geocoders
 from geopy.geocoders import Nominatim
 
 
-df = pd.read_csv(r'NYC_output (1).csv')
+df = pd.read_csv('NYC_output (1).csv')
 
 copy_df = df.copy()
 copy_df = copy_df.sort_values(by='name')
